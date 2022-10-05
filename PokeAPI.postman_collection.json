@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "885e0121-9979-47f7-8ea0-5004c0228871",
+		"name": "PokeAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23523440"
+	},
+	"item": [
+		{
+			"name": "Listar pokemon 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/pokemon/ditto",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"pokemon",
+						"ditto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar pokemon 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/pokemon/2",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"pokemon",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
